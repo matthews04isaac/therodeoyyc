@@ -52,7 +52,7 @@
         <span class="tag tag--outline">Scouts in Attendance</span>
       </div>
       <div class="hero__ctas">
-        <a href="#register" class="btn btn--primary">Register Your Team</a>
+        <a href="#register" class="btn btn--primary">Register as a Player</a>
         <a href="#about" class="btn btn--ghost">Learn More</a>
       </div>
     </div>
@@ -90,9 +90,9 @@
           <p class="section__eyebrow">About The Event</p>
           <h2 class="section__title">Western Canada's Premier <span class="red">Elite Showcase</span></h2>
           <p>The Rodeo Showcase is a high-performance hockey showcase designed to give elite young players across Western Canada the opportunity to compete at the highest level — and be seen by the people who matter.</p>
-          <p>Held in Calgary, Alberta, this invite-only event brings together the top Tier 1 and above programs in the U15 and U18 categories for a weekend of elite-level competition, skill evaluation, and exposure.</p>
-          <p>Whether you're a player looking to take your game to the next level, or a program seeking top-tier competition, The Rodeo Showcase is where it happens.</p>
-          <a href="#register" class="btn btn--primary" style="margin-top:1.5rem;">Register Now</a>
+          <p>Players register individually and are placed onto teams for the weekend. Want to play alongside a friend? Simply request them during registration and we'll do our best to make it happen.</p>
+          <p>Whether you're chasing a junior opportunity or a collegiate path, The Rodeo Showcase is where it happens.</p>
+          <a href="#register" class="btn btn--primary" style="margin-top:1.5rem;">Register as a Player</a>
         </div>
         <div class="about__stats fade-in">
           <div class="stat-card">
@@ -119,46 +119,50 @@
   <!-- DIVISIONS -->
   <section class="section divisions" id="divisions">
     <div class="container">
-      <p class="section__eyebrow text-center">Compete At Your Level</p>
+      <p class="section__eyebrow text-center">Choose Your Division</p>
       <h2 class="section__title text-center">Two <span class="red">Divisions</span></h2>
-      <p class="section__sub text-center">Both divisions require Tier 1 classification or above. This is an elite-only event.</p>
+      <p class="section__sub text-center">Both divisions are age-based and equally scout-focused. Players register individually — teams are built from registrants.</p>
       <div class="divisions__grid">
 
-        <div class="division-card fade-in">
-          <div class="division-card__badge">Division I</div>
+        <div class="division-card division-card--featured fade-in">
+          <div class="division-card__highlight-label">Scout Focus</div>
+          <div class="division-card__badge division-card__badge--red">Age Division</div>
           <h3 class="division-card__title">U15</h3>
           <p class="division-card__born">Born 2012 – 2013</p>
           <ul class="division-card__list">
             <li>Tier 1 classification required</li>
+            <li>Register individually — teams assigned</li>
+            <li>Request a teammate during sign-up</li>
             <li>Round-robin format + playoffs</li>
             <li>Minimum 3 guaranteed games</li>
-            <li>Individual & team stat tracking</li>
+            <li>Individual stat tracking</li>
             <li>Scout evaluation sessions</li>
-            <li>All-Showcase team recognition</li>
+            <li>All-Showcase player recognition</li>
           </ul>
-          <a href="#register" class="btn btn--primary btn--full">Register U15 Team</a>
+          <a href="#register" class="btn btn--primary btn--full">Register as U15 Player</a>
         </div>
 
         <div class="division-card division-card--featured fade-in">
-          <div class="division-card__badge division-card__badge--red">Division II</div>
           <div class="division-card__highlight-label">Scout Focus</div>
+          <div class="division-card__badge division-card__badge--red">Age Division</div>
           <h3 class="division-card__title">U18</h3>
           <p class="division-card__born">Born 2009 – 2010</p>
           <ul class="division-card__list">
             <li>Tier 1 classification required</li>
+            <li>Register individually — teams assigned</li>
+            <li>Request a teammate during sign-up</li>
             <li>Round-robin format + playoffs</li>
             <li>Minimum 3 guaranteed games</li>
-            <li>Individual & team stat tracking</li>
-            <li>Enhanced scout evaluation sessions</li>
-            <li>All-Showcase team recognition</li>
-            <li>Post-event player report cards</li>
+            <li>Individual stat tracking</li>
+            <li>Scout evaluation sessions</li>
+            <li>All-Showcase player recognition</li>
           </ul>
-          <a href="#register" class="btn btn--primary btn--full">Register U18 Team</a>
+          <a href="#register" class="btn btn--primary btn--full">Register as U18 Player</a>
         </div>
 
       </div>
       <div class="divisions__note">
-        <p>Not sure if your team qualifies? <a href="#contact">Contact us</a> and our team will assess your eligibility.</p>
+        <p>Not sure which division you qualify for? <a href="#contact">Contact us</a> and we'll help you out.</p>
       </div>
     </div>
   </section>
@@ -212,7 +216,7 @@
               <div class="timeline__dot"></div>
               <div class="timeline__body">
                 <h4>Day 1 — Friday Evening</h4>
-                <p>Team check-in, registration & opening ceremonies. Welcome reception for coaches and management.</p>
+                <p>Player check-in & opening ceremonies. Welcome reception for players, parents, and coaches.</p>
               </div>
             </div>
             <div class="timeline__item">
@@ -236,7 +240,7 @@
           <div class="included-list">
             <div class="included-item">
               <span class="included-item__check">&#10003;</span>
-              <span>Minimum 3 guaranteed games per team</span>
+              <span>Minimum 3 guaranteed games per player</span>
             </div>
             <div class="included-item">
               <span class="included-item__check">&#10003;</span>
@@ -281,41 +285,56 @@
     <div class="register__bg-overlay"></div>
     <div class="container register__content">
       <p class="section__eyebrow">Get In The Lineup</p>
-      <h2 class="section__title">Register Your <span class="red">Team</span></h2>
-      <p class="register__lead">Spots are limited. Only Tier 1 or above teams will be accepted. Fill out the form and our team will be in touch within 48 hours to confirm eligibility and secure your spot.</p>
+      <h2 class="section__title">Register as a <span class="red">Player</span></h2>
+      <p class="register__lead">Players register individually. We'll build the teams. Want to play with a friend? Add their name in the teammate request field and we'll do our best to place you together.</p>
       <form class="register__form" id="registerForm" novalidate>
         <div class="form__row">
           <div class="form__group">
-            <label for="teamName">Team / Club Name *</label>
-            <input type="text" id="teamName" name="teamName" placeholder="e.g. Calgary Flames AAA" required />
+            <label for="playerName">Player Name *</label>
+            <input type="text" id="playerName" name="playerName" placeholder="First Last" required />
           </div>
           <div class="form__group">
             <label for="division">Division *</label>
             <select id="division" name="division" required>
               <option value="" disabled selected>Select a division</option>
-              <option value="u15">U15</option>
-              <option value="u18">U18</option>
+              <option value="u15">U15 (Born 2012–2013)</option>
+              <option value="u18">U18 (Born 2009–2010)</option>
             </select>
           </div>
         </div>
         <div class="form__row">
           <div class="form__group">
-            <label for="tier">Team Classification / Tier *</label>
-            <input type="text" id="tier" name="tier" placeholder="e.g. Tier 1, AAA, Midget AAA" required />
+            <label for="birthYear">Birth Year *</label>
+            <input type="text" id="birthYear" name="birthYear" placeholder="e.g. 2011" required />
           </div>
           <div class="form__group">
-            <label for="league">League / Association *</label>
-            <input type="text" id="league" name="league" placeholder="e.g. AAAHL, CAMHL" required />
+            <label for="position">Position *</label>
+            <select id="position" name="position" required>
+              <option value="" disabled selected>Select position</option>
+              <option>Forward</option>
+              <option>Defence</option>
+              <option>Goalie</option>
+            </select>
           </div>
         </div>
         <div class="form__row">
           <div class="form__group">
-            <label for="contactName">Contact Name *</label>
-            <input type="text" id="contactName" name="contactName" placeholder="Head Coach or Manager" required />
+            <label for="currentTeam">Current Team / Club *</label>
+            <input type="text" id="currentTeam" name="currentTeam" placeholder="e.g. Calgary Flames AAA" required />
+          </div>
+          <div class="form__group">
+            <label for="tier">Classification / Tier *</label>
+            <input type="text" id="tier" name="tier" placeholder="e.g. Tier 1, AAA" required />
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__group">
+            <label for="parentName">Parent / Guardian Name *</label>
+            <input type="text" id="parentName" name="parentName" placeholder="Full Name" required />
           </div>
           <div class="form__group">
             <label for="contactEmail">Email Address *</label>
-            <input type="email" id="contactEmail" name="contactEmail" placeholder="coach@yourteam.com" required />
+            <input type="email" id="contactEmail" name="contactEmail" placeholder="parent@email.com" required />
           </div>
         </div>
         <div class="form__row">
@@ -329,12 +348,16 @@
           </div>
         </div>
         <div class="form__group form__group--full">
+          <label for="teammate">Teammate Request</label>
+          <input type="text" id="teammate" name="teammate" placeholder="Name of a player you'd like to be placed with (optional)" />
+        </div>
+        <div class="form__group form__group--full">
           <label for="message">Additional Notes</label>
-          <textarea id="message" name="message" rows="4" placeholder="Any additional information about your team..."></textarea>
+          <textarea id="message" name="message" rows="3" placeholder="Anything else we should know..."></textarea>
         </div>
         <div class="form__submit">
           <button type="submit" class="btn btn--primary btn--large">Submit Registration Interest</button>
-          <p class="form__disclaimer">By submitting, you agree to be contacted by Ascend Elite Hockey regarding The Rodeo Showcase. Submission does not guarantee a spot.</p>
+          <p class="form__disclaimer">By submitting, you agree to be contacted by Ascend Elite Hockey regarding The Rodeo Showcase. Teammate requests are not guaranteed. Submission does not guarantee a spot.</p>
         </div>
       </form>
       <div class="register__confirmation" id="formConfirmation" style="display:none;">
@@ -359,7 +382,7 @@
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>The Rodeo Showcase is an invite-only, elite showcase open to U15 and U18 hockey teams with a Tier 1 classification or above. Teams must be registered with an official minor hockey association in Canada. If you're unsure whether your team qualifies, reach out and we'll assess eligibility.</p>
+            <p>The Rodeo Showcase is open to individual players in the U15 and U18 age divisions who play at a Tier 1 level or above. Players must be registered with an official minor hockey association in Canada. You don't need a team — just register yourself and we handle the rest.</p>
           </div>
         </div>
 
@@ -379,7 +402,7 @@
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>All registered teams are guaranteed a minimum of 3 games during the round-robin phase. Teams that advance to the semi-finals or championship round will play additional games. We design the schedule to maximize ice time and competitive play for every team.</p>
+            <p>All players are guaranteed a minimum of 3 games during the round-robin phase. Players on teams that advance to the semi-finals or championship round will play additional games. We design the schedule to maximize ice time and exposure for every player.</p>
           </div>
         </div>
 
@@ -399,7 +422,7 @@
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>Registration pricing will be announced in 2026 as we finalize event details. We are committed to keeping fees competitive with other elite-level showcases. Early registrants may be eligible for discounted rates. Submit your interest via the registration form and you'll be first to know when pricing is released.</p>
+            <p>Individual player registration pricing will be announced in 2026 as we finalize event details. We are committed to keeping fees accessible for elite-level players. Early registrants may be eligible for discounted rates. Submit your interest and you'll be first to know when pricing is released.</p>
           </div>
         </div>
 
@@ -425,11 +448,21 @@
 
         <div class="faq__item">
           <button class="faq__question" aria-expanded="false">
-            Is there accommodation nearby for traveling teams?
+            Can I request to be on the same team as a friend?
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>Yes. Calgary has a wide range of hotel options suitable for traveling teams. We will be partnering with select hotels to offer group rates for registered teams. Hotel partner information will be shared with confirmed registrants closer to the event.</p>
+            <p>Yes. During registration there's a teammate request field where you can enter the name of another registered player you'd like to be placed with. We will do our best to honour these requests, but they are not guaranteed. Both players must be registered in the same division for a request to be considered.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            Is there accommodation nearby for players and families?
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <p>Yes. Calgary has a wide range of hotel options suitable for players and families traveling from out of town. We will be partnering with select hotels to offer rates for registered players and their families. Hotel partner information will be shared with confirmed registrants closer to the event.</p>
           </div>
         </div>
 
@@ -491,7 +524,7 @@
               <label for="cSubject">Subject</label>
               <select id="cSubject" name="cSubject">
                 <option value="">Select a topic</option>
-                <option>Team Registration Inquiry</option>
+                <option>Player Registration Inquiry</option>
                 <option>Scout / Recruiter Accreditation</option>
                 <option>Sponsorship Opportunity</option>
                 <option>Media Inquiry</option>
