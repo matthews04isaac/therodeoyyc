@@ -7,17 +7,17 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --red:       #b22222;
-  --red-bright:#f00000;
-  --red-dark:  #8b0000;
-  --red-glow:  rgba(178, 34, 34, 0.45);
+  --red:       #9b1c2e;
+  --red-bright:#b52337;
+  --red-dark:  #6e1220;
+  --red-glow:  rgba(155, 28, 46, 0.45);
   --black:     #0a0a0a;
   --dark:      #111111;
   --dark2:     #181818;
   --dark3:     #222222;
   --mid:       #2a2a2a;
-  --light:     #f5f5f5;
-  --white:     #ffffff;
+  --light:     #f5ede2;
+  --white:     #f5ede2;
   --muted:     #aaaaaa;
   --border:    rgba(255,255,255,0.08);
   --font-head: 'Oswald', sans-serif;

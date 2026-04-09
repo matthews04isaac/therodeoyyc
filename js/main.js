@@ -64,7 +64,7 @@ if (registerForm) {
     required.forEach(field => {
       field.style.borderColor = '';
       if (!field.value.trim()) {
-        field.style.borderColor = '#f00000';
+        field.style.borderColor = '#b52337';
         valid = false;
       }
     });
@@ -89,7 +89,7 @@ if (contactForm) {
     required.forEach(field => {
       field.style.borderColor = '';
       if (!field.value.trim()) {
-        field.style.borderColor = '#f00000';
+        field.style.borderColor = '#b52337';
         valid = false;
       }
     });
@@ -137,6 +137,6 @@ window.addEventListener('scroll', () => {
   });
   navLinkEls.forEach(link => {
     link.style.color = link.getAttribute('href') === `#${current}`
-      ? '#f00000' : '';
+      ? '#b52337' : '';
   });
 });
